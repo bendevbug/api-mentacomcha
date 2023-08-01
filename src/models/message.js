@@ -6,7 +6,8 @@ const messagesSchema = new mongoose.Schema(
     }
 )
 
+
 const messages = mongoose.model('messages', messagesSchema);
 
-module.exports = messages;
 
+module.exports = messages;
